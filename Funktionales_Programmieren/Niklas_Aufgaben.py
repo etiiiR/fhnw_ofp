@@ -23,20 +23,39 @@ def anzahl_gerade3(lst: list) -> int:
 
 print(anzahl_gerade3([4, 3, 6, 32, 2, 1, 23, 4]))
 
+def summe(x):
+    def f(a,b):
+        return x + a + b
+    return f
+
+foo = summe(2)
+print(foo(4,5))
+
+
+
 # 2 Funktion
 from typing import Callable
 
 
 def foo(x: int, y: int, z: int) -> int:
     return x + y + z
-
-
 def curry(foo: Callable, k: int) -> Callable:
     return lambda *args: foo(k, *args)
-
-
 bar = curry(foo, 5)
 print(bar(2, 4))
+
+
+def summe(x):
+    def f(a,b):
+        return x + a + b
+    return f
+
+foo = summe(2)
+print(foo(4,5))
+
+
+
+
 
 
 # 3 Nur Reduce Funktion benutzen
@@ -52,3 +71,6 @@ def mein_filter2(xs: list, k: int) -> list:
 
 
 print(mein_filter2([1, 3, 2, 4, 5], 3))
+
+
+
