@@ -19,6 +19,9 @@ for i in liste:
 def mein_filter(func, liste):
     return reduce(lambda a, b: a + [b] if func(b) else a, liste, [])
 
-a = mein_filter(lambda x: x > 4, [1,2,3,4,5,6,7,8])
-print(a)
+print(mein_filter(lambda x: x > 4, [1,2,3,4,5,6,7,8]))
 
+def mein_filter2(func, liste):
+    return reduce(lambda a, b: a + dict(b), liste, dict())
+
+print(mein_filter2(lambda x: x > 2, [1,2,3,4,5,6,7,8]))
