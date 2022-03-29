@@ -1,8 +1,12 @@
 from functools import reduce
 
 def mein_filter(func, liste):
-    return reduce(lambda a, b: a + b, liste, [])
+    return reduce(lambda a, b: a + [b] if func(b) else a, liste, dict())
 
-print(mein_filter(lambda x: x > 4, [1,2,3,4,5,6,7,8]))
+liste_dict = [{"Key":10},{"Key":20},{"Key":30}]
 
+print(mein_filter(lambda x: [x] <= 20, liste_dict))
+
+
+for key, values in liste_dict.
 

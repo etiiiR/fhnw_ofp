@@ -6,4 +6,4 @@ def fibonacci_rec(n: int):
 
     return n if n <= 1 else fibonacci_rec(n - 1) + fibonacci_rec(n - 2)
 
-print(fibonacci_rec(2))
+print(fibonacci_rec(5))

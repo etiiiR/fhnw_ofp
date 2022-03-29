@@ -4,7 +4,10 @@ def fibonacci_rec(n: int) -> int:
 
 fib_dict = {}
 
+cnt = 0
 def fibonacci_rec_func(x: int):
+    global cnt
+    cnt += 1
     if x in fib_dict:
         print(fib_dict[x])
     else:
@@ -13,3 +16,5 @@ def fibonacci_rec_func(x: int):
 
 fibonacci_rec_func(19)
 print(fib_dict)
+
+
