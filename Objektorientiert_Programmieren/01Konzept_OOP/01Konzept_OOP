@@ -1,0 +1,12 @@
+# Wozu benoetigt man OOP Programmierung?
+Mit der OOP kann man komplexere Daten beschreiben und deren Datentyp definieren.
+Bsp: Wenn wir ein Auto beschreiben moechten, reicht uns die Basis Datentypen wie int, str etc.. nicht aus
+um das Auto zu beschreiben. Da kommt OOP zum Zuge, denn man kann dort dann die Eigenschaften wie
+Marke, Farbe, Groesse etc... definieren.
+Hauptaufgabe von OOP: Darstellung der Daten!
+
+# Grobe Idee der OOP
+Bei der OOP macht man sich folgende Gedanken:
+-   Aus welchen Objekten setzt sich das Programm zusammen?
+-   Objekt modellieren (eigene Datentypen bauen)
+-   Beziehungen von Objekten untereinander
