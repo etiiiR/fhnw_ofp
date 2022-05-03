@@ -1,14 +1,41 @@
 # Die vier OOP Prinzipien
 Encapsulation, Information Hiding, Polymorphismus und Inheritance
 
+# Klasse
+# Eine Klasse ist ein Bauplan von Objekten
 
 # Inheritance (Vererbung)
+# Code Reuse
+# Benuzten, Modifizieren oder Eine etwas hinzufuegen
+# Vererbung gibt mir die moeglichkeit vorhandenen Code, nutzen.
 # Bei der Vererbung geht es darum, den Code nicht jedes mal wieder zuschreiben, der in einer
 # Klasse schon geschrieben wurde. Man kann die Code Schnipsel wieder verwenden und
 # spart somit Zeit und Geld.
 
-# Polymorphism (Die Gleiche Methode mit verschiedene Outputs)
+# Polymorphism  = Vielgestaltigkeit (Die Gleiche Methode mit verschiedene Outputs)
+# Objekt verschiedener Klasse fuer das gleiche verwenden
+#
+
 # Eine Methode kann in zwei klassen vorhanden sein und unterschiedliche Werte ausgeben.
 # Die Methode A in Klasse A macht was anderes als die Methode A in Klasse B.
 
+# Encapsulation
+# Zusammenbacken von verschiedenen Variabeln und Operationen darauf in einer Box.
+# Wichtig fuer Zusammensetzung von Daten und Operationen dadrauf
+
+# Information Hiding
+# Schutzmechanismus -> Verstecke Variabel, die von aussen nicht existieren
+# Schutz vor Zugriff von aussen
+# _ -> Privat, kann vererbt werden
+# __ -> mit __ kann man nie zwei gleiche namen haben
+# Der Nutzen von Information Hiding: Konsistenz der Daten gesichert
+# Leseschutz?
+# Information Hiding nutzen - Schnittstelle - der von Aussen nutzen muss, muss diese nicht kennen
+
+
+
+
+
+# Abschlusspruefung Fragen:
+# Was macht ein Objekt aus?
 #
