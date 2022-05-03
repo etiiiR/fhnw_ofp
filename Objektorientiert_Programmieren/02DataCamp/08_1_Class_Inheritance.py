@@ -14,7 +14,7 @@ class Employee:
     # Define a new class Manager inheriting from Employee
 class Manager(Employee):
     def display(self):
-        print("Manager ", self.name)
+        print("Manager", self.name)
 
 # Define a Manager object
 mng = Manager("Debbie Lashko", 86500)
@@ -23,4 +23,4 @@ mng = Manager("Debbie Lashko", 86500)
 print(mng.name)
 
 # Call mng.display()
-print(mng.display())
+mng.display()
