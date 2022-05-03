@@ -1,0 +1,14 @@
+# Die vier OOP Prinzipien
+Encapsulation, Information Hiding, Polymorphismus und Inheritance
+
+
+# Inheritance (Vererbung)
+# Bei der Vererbung geht es darum, den Code nicht jedes mal wieder zuschreiben, der in einer
+# Klasse schon geschrieben wurde. Man kann die Code Schnipsel wieder verwenden und
+# spart somit Zeit und Geld.
+
+# Polymorphism (Die Gleiche Methode mit verschiedene Outputs)
+# Eine Methode kann in zwei klassen vorhanden sein und unterschiedliche Werte ausgeben.
+# Die Methode A in Klasse A macht was anderes als die Methode A in Klasse B.
+
+#
