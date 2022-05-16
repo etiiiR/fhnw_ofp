@@ -24,3 +24,4 @@ class SavingsAccount(BankAccount):
 saving_acount1 = SavingsAccount(1000, 0.05)
 print(saving_acount1.interest_rate)
 print(saving_acount1.compute_interest(10))
+SavingsAccount()
