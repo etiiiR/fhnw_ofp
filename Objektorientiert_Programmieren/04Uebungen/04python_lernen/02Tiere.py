@@ -11,19 +11,42 @@ class Tier():
     def reden(self, anzahl=1):
         print(self.rufname * anzahl)
 
+    def append(self, anzahl):
+        pass
+
 
 class Katze(Tier):
-    def __init__(self, farbe, alter, rufname):
-        Tier.__init__(self, farbe, alter, rufname)
+    pass
 
-katze1 = Katze("orange", 20, "min")
+katze1 = Katze("orange", 20, "mini")
 
 class Hund(Tier):
-    def __init__(self, farbe, alter, rufname):
-        Tier.__init__(self, farbe, alter, rufname)
+    pass
 
-hund1 = Hund("Braun", 10, "max")
+hund1 = Hund("Braun", 10, "maxi")
 
 hund1.schlafen(10)
 print(hund1.schlafzeit)
 hund1.reden(10)
+
+katze1.reden(3)
+
+print(katze1.rufname)
+
+
+x = [1,2,3,5]
+
+print(type(x))
+
+
+class list():
+    def append(self):
+        pass
+
+    def remove(self):
+
+
+
+
+
+print(katze1.__dict__)

@@ -1,5 +1,6 @@
-def adder(*args):
+def adder(i, *args):
     print(type(args))
+    print(type(i))
 
     sum = 0
 
@@ -7,7 +8,8 @@ def adder(*args):
         sum += n
     print("Summe ist:", sum)
 
-adder(3,2,5)
+
+adder(3,2,5,2,4,1,2,45,1,1,1,2,4,12,2,41,1,124,21,43)
 adder(2,5,3,3,5,3)
 
 # *args sind spezielle keyword Argumente fuer Funktionen
