@@ -11,7 +11,7 @@ a = fun(x)
 print(a)
 
 # gibt mit das naechste Elemente zurueck
-print(a.__next__())
+#print(a.__next__())
 
 # Weil das erste Element schon zurueck gegeben wurde, werden nur die letzten 3 Elemente ausgegeben
 for i in a:
