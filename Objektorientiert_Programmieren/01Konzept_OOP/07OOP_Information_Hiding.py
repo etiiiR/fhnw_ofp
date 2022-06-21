@@ -11,7 +11,7 @@ sol1 = Solution()
 sol1.sum()
 sol1.sum()
 
-# Die Klassenvariabel kann nicht einfach so ausgegeben und veraendert werden, da diese verseckt ist!
+# Die Klassenvariabel kann nicht einfach so ausgegeben und veraendert werden, da diese privat ist!
 #print(sol1.__privatcounter)
 
 # Um die Klassenvariabel auszugeben, muss man diese so ansprechen.

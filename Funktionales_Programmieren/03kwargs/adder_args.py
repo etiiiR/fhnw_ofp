@@ -1,9 +1,7 @@
 def adder(i, *args):
     print(type(args))
     print(type(i))
-
     sum = 0
-
     for n in args:
         sum += n
     print("Summe ist:", sum)
