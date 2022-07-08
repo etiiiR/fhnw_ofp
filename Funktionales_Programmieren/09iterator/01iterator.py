@@ -11,6 +11,7 @@ print(it.__next__()) # 10
 print(it.__next__()) # 20
 print(it.__next__()) # 304
 print(it.__next__()) # 50
+print(it.__next__()) # Out of 
 
 
 

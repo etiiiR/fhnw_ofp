@@ -2,10 +2,13 @@
 
 liste = [40,30,20,10]
 iterator = liste.__iter__()
-print(iterator)
+# print(iterator)
+# output: <list_iterator object at 0x000002C159C0EFD0>
 
-print(next(iterator))
-print(iterator.__next__())
+# print(next(iterator))
+# output: 40
+# print(iterator.__next__())
+# output: 30
 
 # Beide Varianten sind das gleiche!
 
