@@ -12,5 +12,3 @@ print(b)
 c = b([1,2])
 print(c)
 
-
-def m
